@@ -21,7 +21,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ========== ロール名 ==========
 ROLE_NAME_VERIFIED = "認証済み"
-ROLE_NAME_GIJUTSU = "技術班"
+ROLE_NAME_GIJUTSU = "技術班"   #このコマンド使わないでね　ショップで買う制度にしてるから
 ROLE_NAME_BRAWL = "ブロスタ勢"
 
 # ========== セキュリティ設定 ==========
