@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("verify-bot")
 TOKEN = os.getenv("TOKEN")
 GUILD_ID = os.getenv("GUILD_ID")
-LOG_CHANNEL_ID = 1540259565503774790
+LOG_CHANNEL_ID = 1540259565503774790 #入室記録をメモるチャンネル
 if not TOKEN:
     logger.error("環境変数 TOKEN が設定されていません。Bot を起動できません。")
     raise SystemExit("TOKEN is required in environment variables")
